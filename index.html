@@ -1,17 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title></title>
+        <title>Calculator</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="./style.css" rel="stylesheet">
     </head>
     <body>
+        <h1>Calculator</h1>
+        <div class="calculator">
+        <div class="display">
+                <div class="upper">0</div>
+        </div>
+
+        <div class="body">
+
+            <div class="number">
+                <div class="row">                   
+                    <button data-number>1</button>
+                    <button data-number>2</button>
+                    <button data-number>3</button>
+                </div>
+                <div class="row">
+                    <button data-number>4</button>
+                    <button data-number>5</button>
+                    <button data-number>6</button>
+                </div>
+                <div class="row">
+                    <button data-number>7</button>
+                    <button data-number>8</button>
+                    <button data-number>9</button>
+                </div>
+                <div class="row">
+                    <button class="reset" data-clear>C</button>
+                    <button data-number>0</button>
+                    <button class="equalTo" data-calculate>=</button>
+                </div>
+            </div>
+                
+            <div class="operate">
+                <button data-action=>+</button>
+                <button data-action>-</button>
+                <button data-action>*</button>
+                <button data-action>/</button>
+            </div>
+            
+
+        </div>
+        
+    </div>
+    <footer>Copyright © GuneetSingh</footer>
     
 
 
-
-
+    
 
         <script src="./index.js"></script>
     </body>
